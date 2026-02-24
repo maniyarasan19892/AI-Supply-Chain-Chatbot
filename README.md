@@ -1,34 +1,82 @@
-# 🤖 AI Supply Chain Analytics Chatbot (Local LLM + MS SQL)
+# 🤖 AI Supply Chain Chatbot
 
-## 🔥 Project Overview
-This project is an AI-powered Supply Chain Analytics Chatbot that converts natural language questions into SQL queries using a Local LLM (Ollama) and fetches results from MS SQL Server.
+An AI-powered SQL chatbot that allows users to query supply chain data using natural language.  
+The system converts user questions into SQL queries using LLM and displays results with Power BI dashboards.
 
-## 🛠 Tech Stack
-- Python
-- MS SQL Server
-- Ollama (Local LLM)
-- pyodbc
-- Pandas
+---
 
 ## 🚀 Features
-- Natural Language → SQL Conversion
-- Automated Query Execution
-- Real-time Analytics
-- Local LLM (No API cost)
-- Supply Chain KPI analysis
 
-## 📊 Example Queries
-- What is total revenue by production type?
-- Show top 5 SKUs by sales
-- Calculate gross margin %
-- What is average lead time?
+- 🧠 Natural Language to SQL conversion using LLM
+- 📊 Supply Chain KPI analysis
+- 📦 Inventory Optimization insights
+- 💰 Sales & Revenue dashboard
+- 📉 Out-of-stock percentage tracking
+- 🔗 Power BI integration
 
-## ⚙️ How to Run
-1. Install dependencies:
-   pip install -r requirements.txt
+---
 
-2. Start Ollama:
-   ollama run phi
+## 🛠 Tech Stack
 
-3. Run:
-   python app.py
+- Python
+- OpenAI / LLM
+- SQL
+- Power BI
+- Pandas
+
+---
+
+## 📂 Project Structure
+AI-Supply-Chain-Chatbot/
+│
+├── app.py
+├── supply.pbix
+├── Requirements.txt
+├── README.md
+├── sales_revenue_screenshot.png
+└── inventory_optimization_screenshot.png
+
+---
+
+## 📊 Sample Dashboards
+
+### Inventory Optimization
+![Inventory](inventory optimization screenshot.png)
+
+### Sales & Revenue
+![Sales](sales revenue screenshot.png)
+
+---
+
+## ▶️ How to Run
+
+```bash
+pip install -r Requirements.txt
+python app.py
+📈 Use Cases
+
+Supply Chain Monitoring
+
+Inventory Optimization
+
+AI-based Data Querying
+
+Business Intelligence Automation
+
+👨‍💻 Author
+
+Maniyarasan
+
+
+---
+
+# ✅ 3️⃣ Save and Push Changes
+
+After editing README:
+
+```bash
+git add README.md
+git commit -m "Updated README with project details"
+git push
+Architecture diagram
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/75e60c07-48b5-478f-8ae3-936dbee4044e" />
